@@ -92,9 +92,9 @@ extension VisualEffectBlur.Representable {
 
 // MARK: - Content-less Initializer
 
-extension VisualEffectBlur where Content == EmptyView {
+public extension VisualEffectBlur where Content == EmptyView {
     init(blurStyle: UIBlurEffect.Style = .systemMaterial) {
-        self.init( blurStyle: blurStyle, vibrancyStyle: nil) {
+        self.init(blurStyle: blurStyle, vibrancyStyle: nil) {
             EmptyView()
         }
     }
