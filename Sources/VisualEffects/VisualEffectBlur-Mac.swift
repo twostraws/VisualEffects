@@ -17,7 +17,7 @@ public struct VisualEffectBlur: View {
     private var blendingMode: NSVisualEffectView.BlendingMode
     private var state: NSVisualEffectView.State
     
-    init(
+    public init(
         material: NSVisualEffectView.Material = .headerView,
         blendingMode: NSVisualEffectView.BlendingMode = .withinWindow,
         state: NSVisualEffectView.State = .followsWindowActiveState
