@@ -9,6 +9,10 @@
     </a>
 </p>
 
+**If you're able to target iOS 15 and later, this repository is no longer needed because there is dedicated SwiftUI API for this now.** See here: [How to add visual effect blurs](https://www.hackingwithswift.com/quick-start/swiftui/how-to-add-visual-effect-blurs)
+
+<hr />
+
 This repository is a wrapper for `UIVisualEffectView` and `NSVisualEffectView`, which will be useful until SwiftUI introduces an official view that does the same.
 
 SwiftUI does not have an official `UIVisualEffectView` wrapper, so a number of folks have attempted to make one with varying degrees of success. Fortunately for all of us, Apple has released their own wrapper for both iOS and macOS, licensed under the MIT license. This repository hosts that wrapper as a Swift package, so you can use it yourself.
